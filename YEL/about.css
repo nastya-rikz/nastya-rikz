@@ -1,0 +1,41 @@
+.about
+{
+    line-height: 1;
+    
+}
+.navigation_about
+{
+    margin-bottom: 30px !important;
+}
+.photo_studio1, .photo_studio2, .photo_studio3
+{
+    width: 1170px !important;
+    height: 500px !important;
+}
+.carusel_title
+{
+    margin: 0;
+}
+.header, .list
+{
+    font-size: 1.2em;
+}
+.header_about
+{
+    margin-top: 40px;
+}
+.slogan
+{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.background_vasilek
+{
+    
+    background: url(/DIPLOM3/photo/photo_about/vasilek6.png) right -40px bottom 35px no-repeat;
+    background-size: 27%, 17%;
+    
+}
+
+

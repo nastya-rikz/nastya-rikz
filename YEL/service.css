@@ -1,0 +1,44 @@
+.photo_heder
+{
+    width: 1170px;
+    height: 500px;
+    margin: 30px 0 10px 0;
+    padding: 0;
+    border: solid 1px #a9a9a9;
+    box-shadow: 1px 1px 1px rgb(176, 196, 222);
+}
+.card
+{
+    width: 1170px;
+    border: solid 1px #a9a9a9 !important;
+    border-radius: 0px !important;
+}
+.card-header
+{
+    background-color: #3AAFAB !important;
+    color: white !important;
+}
+.card-header:first-child
+{
+    border-radius: 0px !important;
+}
+.card-link
+{
+color: white;
+font-size: 24px;
+}
+.card-body, td
+{
+    font-size: 18px;
+}
+td
+{
+    width: 110px;
+    text-align: center;
+    border: solid grey 1px;
+}
+#accordion
+{
+    margin: 30px 0;
+   
+}

@@ -1,0 +1,266 @@
+
+.index
+{  
+    background: url(/DIPLOM3/photo/photo_index/flowers.png) right -20px bottom 60px no-repeat;
+    background-size: 13%;
+   
+}
+
+.content 
+{
+	/* display: flex;
+    -ms-flex-direction: column; */
+	width: 1170px;
+	margin: 30px auto 50px auto;
+    justify-content: center;
+}
+.big_photo, .little_photo_one, .little_photo_two
+{
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #a9a9a9;  
+    
+}
+.big_photo
+{
+    transition-duration: 1.5s;
+    background: url(photo/photo_index/kraski-original-resized.jpg);
+    background-size: cover;
+}
+img.big_photo1
+{
+    justify-content: center;
+    align-items: center;
+    flex-basis: 476px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 470px;
+    width: 570px;
+    transition-duration: 1.5s;
+}
+
+img.big_photo1:hover
+{
+opacity: 0;
+}
+
+.little_photo_one
+{
+    display: flex;
+    width: 562px;
+    margin: 10px 0px 0px 0px;
+    box-shadow: 1px 1px 1px rgb(176, 196, 222);
+    background: url(photo/photo_index/akvarel-photo-1.jpg);
+    background-size:cover;
+}
+.little_photo_two
+{
+    display: flex;
+    width: 562px;
+    margin: 8px 0px 0px 0px;
+    box-shadow: 1px 1px 1px rgb(176, 196, 222);
+    background: url(photo/photo_index/kisti-photo-1.jpg);
+    background-size: cover;
+}
+
+
+img.little_photo1
+{   flex-basis: 271px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-height: 230px;
+    transition-duration: 2s;
+}
+.little_photo1:hover
+{
+opacity: 0;
+}
+
+
+/* КОНЕЦ КОНТЕНТ БОКСА */
+
+
+
+.service_text
+{
+    text-align: initial;
+}
+.service_logo
+{
+    width: 50px;
+    height: 50px;
+}
+.service_box
+{
+    display:flex;
+    flex-direction: row;
+    width: 1150px;
+    margin: 0 auto 30px auto;
+    align-items: center;
+    font-size: 1.2em;
+    justify-content: space-between;
+}
+.service
+{
+    width: 350px;
+    text-align: center;
+    background-color: #ffffff;;
+    box-shadow: 2px 2px 15px lightgrey;
+    padding: 25px;   
+}
+.two
+{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.service_name
+{
+    margin: 0px;
+}
+.link_training
+{
+    color: black;
+}
+a.link_training:hover
+{
+    color: black !important;
+}
+.advertising
+{
+margin: 70px auto 70px auto;
+}
+.carousel
+{
+    display: flex;
+    height: 250px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+.carousel::before, .carousel::after
+{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80px;
+}
+.carousel::before
+{
+    background: linear-gradient(to right,  #ffffff 0%, transparent 100%);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.carousel::after
+{
+    background: linear-gradient(to right, transparent 0%,  #ffffff 100%);
+    right: 0;
+    z-index: 1;
+}
+.slide
+{
+display: flex;
+height: 100%;
+animation-name: slide_show;
+animation-duration: 40s;
+animation-timing-function:linear;
+animation-iteration-count:infinite;
+}
+.slide_item
+{
+height: 100%;
+margin-left: 12px;
+margin-right: 12px;
+box-shadow: 2px 2px 15px lightgrey;
+}
+@keyframes slide_show
+{
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-100%);}
+}
+
+/* РЕГИСТРАЦИЯ*/
+
+
+  .registration {
+    width: 75%;
+    max-width: 1170px;
+    margin: 40px auto 80px auto;
+    font-size: 18px;
+    background: #3AAFAB;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .flex-registration,
+  .flex-inner {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .flex-registration {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  
+  .flex-registration li,
+  .flex-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .flex-inner {
+    padding: 0 8px;
+    justify-content: space-between;  
+  }
+  
+  .flex-registration > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .flex-registration li label,
+  .flex-registration li p {
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+  
+  .flex-registration > li > label,
+  .flex-registration li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+  }
+  
+  .flex-registration > li > label + *,
+  .flex-inner {
+    flex: 1 0 220px;
+  }
+  
+  .flex-registration li p {
+    margin: 0;
+  }
+  
+  .flex-registration li input:not([type='checkbox']),
+  .flex-registration li textarea {
+    padding: 15px;
+    border: none;
+  }
+  
+  .flex-registration li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background:#424242;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+  }
+  .flex-inner li {
+    width: 170px;
+    justify-content: center;
+  }
+

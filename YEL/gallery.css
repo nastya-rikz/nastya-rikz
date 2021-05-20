@@ -1,0 +1,66 @@
+.container_gallery
+{
+    
+    display: flex;
+    flex-direction: row;
+    width: 1170px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    justify-content: center;
+    
+}
+.container_video
+{
+    text-align: center;
+}
+.container_photo
+{
+    width: 100%; 
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+.Littele_photo_gallery
+{
+    height: 228px;
+}
+.photo_mini
+{
+    width: 300px;
+    height: 300px;
+}
+
+.photo {
+    float: left; /* говорим элементам выстраиваться один за другим */
+    width: 33.333333%; /* устанавливаем ширину элемента */
+    padding: 10px; /* добавляем отступы с каждой стороны */
+    box-sizing: border-box; /* меняем способ вычисления ширины */
+}
+.photo img {
+    display: block;
+    border: solid 1px #a9a9a9;
+    box-shadow: 1px 1px 1px rgb(176, 196, 222);
+}
+.photo a:hover {
+    opacity: 0.5;
+}
+.photo a {
+    display: block;
+}
+.photo a:after {
+    content: '';
+    background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+    width: 52px;
+    height: 35px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+}
+.photo:hover > a:after {
+    visibility: visible;
+}
+
+

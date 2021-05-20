@@ -1,0 +1,30 @@
+
+.adress
+{
+    margin: 0 !important;
+    font-size: 24px !important;
+}
+div.line_adress
+{
+    max-width: 150px !important;
+    background-color: red !important;
+    height: 1px !important;
+}
+.map
+{
+    border: solid 1px #a9a9a9;
+    box-shadow: 1px 1px 1px rgb(176 196 222);
+}
+.fa-map-marker-alt, .fa-phone-alt, .fa-envelope-open-text
+{
+    font-size: 20px;
+}
+.street, .telefon, .email
+
+{
+    font-size: 22px;
+}
+.street
+{
+    margin: 0;
+}
