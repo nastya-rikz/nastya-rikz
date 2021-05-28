@@ -102,49 +102,47 @@
     <p  class="heading">РЕГИСТРАЦИЯ</p>
     <div class="line_service"></div>
     <div class="registration">
-      <form>
+      <form id="reg" action="http://fe.it-academy.by/TestForm.php" method="GET" target="BLANK">
         <ul class="flex-registration">
           <li>
             <label for="first-name">имя</label>
-            <input type="text" id="first-name" placeholder="Введите Ваше имя">
+            <input name="name" type="text" placeholder="Введите Ваше имя" form="reg">
           </li>
           <li>
             <label for="email">email</label>
-            <input type="email" id="email" placeholder="Ваш email ">
+            <input name="email" type="email" placeholder="Ваш email"  form="reg">
           </li>
           <li>
             <label for="phone">phone</label>
-            <input type="tel" id="phone" placeholder="Введите Ваш номер телефона">
+            <input name="phone" type="tel" placeholder="Введите Ваш номер телефона"  form="reg">
           </li>
           <li>
             <p>Услуга</p>
             <ul class="flex-inner">
               <li>
-                <input type="checkbox" id="twenty-to-twentynine">
-                <label for="twenty-to-twentynine">обучение</label>
+                <input name="learning" type="checkbox" form="reg">
+                <label for="learning">обучение</label>
               </li>
               <li>
-                <input type="checkbox" id="thirty-to-thirtynine">
-                <label for="thirty-to-thirtynine">мероприятие</label>
+                <input name="korporat" type="checkbox" form="reg">
+                <label for="korporat">мероприятие</label>
               </li>
               <li>
-                <input type="checkbox" id="fourty-to-fourtynine">
-                <label for="fourty-to-fourtynine">декоратор</label>
+                <input name="decorator" type="checkbox" form="reg">
+                <label for="decorator">декоратор</label>
               </li>
             </ul>
           </li>
           <li>
             <label for="message">комментарий</label>
-            <textarea rows="6" id="message" placeholder="..."></textarea>
+            <textarea name="comments" form="reg" rows="6" placeholder="..."></textarea>
           </li>
-          
           <li>
             <button type="submit">Submit</button>
           </li>
         </ul>
-      </form>
+     </form>
     </div>
-
     <div class="line_footer"></div>
     <footer>
         <div class="finish">
@@ -154,7 +152,6 @@
             <i class="fab fa-instagram"></i>
             <i class="fab fa-pinterest"></i>
             <i class="fab fa-google-plus-g"></i>
-            
         </div>
         <div class="brand">
             <a href="tel:+375111111111">tel: +375(11) 111 11 11</a>
@@ -162,13 +159,8 @@
         </div>
     </div>
     </footer>
-         
-
-
-    
     </div>
 </div>
-
 </body>
 </html>
 
